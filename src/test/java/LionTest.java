@@ -18,7 +18,6 @@ public class LionTest {
 
     @Test(expected = java.lang.Exception.class)
     public void lionConstructorWithoutSexThrowException() throws Exception {
-        Feline feline = new Feline();
         Lion lion = new Lion("", feline);
     }
 
